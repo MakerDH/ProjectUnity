@@ -1,0 +1,6 @@
+{"spawnTime":1.0,"spawnPosX":5.0,"moveSpeed":5.0}
+{"spawnTime":2.0,"spawnPosX":2.0,"moveSpeed":1.0}
+{"spawnTime":4.0,"spawnPosX":4.0,"moveSpeed":2.0}
+{"spawnTime":3.0,"spawnPosX":6.0,"moveSpeed":3.0}
+{"spawnTime":5.0,"spawnPosX":7.0,"moveSpeed":4.0}
+{"spawnTime":7.0,"spawnPosX":9.0,"moveSpeed":5.0}

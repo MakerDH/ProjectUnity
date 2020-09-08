@@ -1,0 +1,25 @@
+1. 2D 게임 해상도 및 unit test
+-pixels per unit 
+-camera size
+
+unit 계산식
+Resolution_height / (2 * camera_size)
+ex) 1080x1920, camera_size == 10 -> 1 unit == 96 pixel
+	이때 1x1 size texture에
+	pixels per unit을 96으로 하면 1x1해상도로 출력됨
+	pixels per unit을 1으로 하면 96x96해상도로 출력됨
+
+ex2) 1080x1920, camera_size == 960 -> 1 unit == 1 pixel
+	 이때 1x1 size texture에
+	 pixels per unit을 1/96으로 하면 96x96해상도로 출력됨
+	 pixels per unit을 1으로 하면 1x1해상도로 출력됨
+
+-Canvas의 RenderMode가 screen Space - Overlay/Camera 일때 Width, Height가 해상도에 고정되므로
+ UI - Image	를 생성하여 Image에 Width, Height 수치를 조절해보면서 확인 할 수 있다.
+
+
+2.파일 입출력을 통한 몬스터 생성 관리
+-json을 통해 (변수)이름과 값으로 파일을 관리 할 수 있다.
+-로컬에 저장된 파일을 통해 값을 수정하거나 규칙에 맞추어 새로운 파일을 생성 할 수 있다.
+-새로운 레벨을 만들때 용이함
+-생성하고 테스트 할 수 있는 씬 제작 예정
